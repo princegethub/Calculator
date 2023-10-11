@@ -1,0 +1,98 @@
+#calculator{
+  border: 2px solid rgb(212, 184, 184);
+  border-radius: 10px;
+  box-shadow: 0px 5px 4px rgb(46, 7, 7);
+  width: 400px;
+  position: relative;
+  margin: 5% auto;
+height: 500px;
+box-shadow: -4px  4px 8px #4b4747; 
+background-color: rgba(30, 30, 21, 0.461);;
+
+
+}
+#display{
+  margin: 20px;
+  margin-left: 28px;
+  /* width: 85%; */
+  /* padding: 30px  95px; */
+  height: 85px;
+  width: 330px;
+ border: none;
+  background-color: rgb(234, 214, 214);
+  border-radius: 3px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  padding-left: 10px;
+  /* text-align: center; */
+
+
+
+
+  background-color: #041721; /* Background color of the button */
+  color: #ffffff; /* Text color */
+
+  text-decoration: none; /* Remove underlines on anchor links */
+
+  /* Dark box shadow */
+  box-shadow: 2px 2px 5px #333; /* Adjust the values to control shadow appearance */
+  transition: box-shadow 0.3s ease; /* Add a transition for a smooth effect */
+
+  /* Hover effect */
+  transition: box-shadow 0.3s ease;
+}
+
+#display:hover{
+  box-shadow: 4px 4px 8px #040404;
+  border: none;
+  
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-left: 10px; */
+  position: relative;
+ 
+}
+
+.button{
+  /* padding: 20px 30px; */
+  height: 69px;
+  width: 71px;
+  margin:  10px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  background-color: #041721; /* Background color of the button */
+  color: #ffffff; /* Text color */
+
+  text-decoration: none; /* Remove underlines on anchor links */
+
+
+  /* Hover effect */
+  transition: box-shadow 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+
+.button:hover {
+  box-shadow: 4px 4px 8px #040404; /* Adjust the values to control the hover shadow appearance */
+}
+@media (max-width: 480px) {
+  #calculator{
+    width: 313px;
+    height: 439px;
+  }
+  .button{
+    height: 56px;
+    width: 56px;
+  }
+  #display{
+    height: 70px;
+  width: 253px;
+  margin-left: 20;
+  }
+}
